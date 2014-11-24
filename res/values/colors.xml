@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="drawer_icon_selected">#EF950D</color>
+    <color name="drawer_icon_default">#299B53</color>
+
+    <color name="drawer_text_selected">#E5B730</color>
+    <color name="drawer_text_default">#26A95D</color>
+
+    <color name="orange">#FF8C2F</color>
+    <color name="text_gray">#333333</color>
+    <color name="text_light_gray">#80333333</color>
+    <color name="bg_gray">#E2E7EB</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="dark_blue">#1565C0</color>
+    <color name="light_blue">#90CAF9</color>
+</resources>
