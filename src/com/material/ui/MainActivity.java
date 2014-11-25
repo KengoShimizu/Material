@@ -87,6 +87,7 @@ public class MainActivity extends ActionBarActivity {
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mDrawerList.setAdapter(new DrawerAdapter(this, mDrawerIcons, mDrawerTitles));
+
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
     }
 
