@@ -49,6 +49,162 @@
             </intent-filter>
         </activity>
 
+        <activity
+                android:name="com.material.ui.obscrollview.ActionBarControlGridViewActivity"
+                android:label="@string/title_activity_actionbarcontrolgridview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ActionBarControlListViewActivity"
+                android:label="@string/title_activity_actionbarcontrollistview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ActionBarControlRecyclerViewActivity"
+                android:label="@string/title_activity_actionbarcontrolrecyclerview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ActionBarControlScrollViewActivity"
+                android:label="@string/title_activity_actionbarcontrolscrollview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ActionBarControlWebViewActivity"
+                android:label="@string/title_activity_actionbarcontrolwebview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.FlexibleSpaceToolbarScrollViewActivity"
+                android:label="@string/title_activity_flexiblespacetoolbarscrollview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.FlexibleSpaceWithImageScrollViewActivity"
+                android:label="@string/title_activity_flexiblespacewithimagescrollview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.FlexibleSpaceWithImageListViewActivity"
+                android:label="@string/title_activity_flexiblespacewithimagelistview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ParallaxToolbarScrollViewActivity"
+                android:label="@string/title_activity_parallaxtoolbarscrollview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ScrollFromBottomListViewActivity"
+                android:label="@string/title_activity_scrollfrombottomlistview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ScrollFromBottomRecyclerViewActivity"
+                android:label="@string/title_activity_scrollfrombottomrecyclerview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ToolbarControlListViewActivity"
+                android:label="@string/title_activity_toolbarcontrollistview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ToolbarControlRecyclerViewActivity"
+                android:label="@string/title_activity_toolbarcontrolrecyclerview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ToolbarControlScrollViewActivity"
+                android:label="@string/title_activity_toolbarcontrolscrollview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ToolbarControlWebViewActivity"
+                android:label="@string/title_activity_toolbarcontrolwebview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.material.ui.obscrollview.ViewPagerTabScrollViewActivity"
+                android:label="@string/title_activity_viewpagertabscrollview"
+                android:theme="@style/AppTheme.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ObScrollview" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

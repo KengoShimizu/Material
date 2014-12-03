@@ -2,7 +2,7 @@
 <resources>
 
     <string-array name="drawer_arrays">
-        <item>Shadows</item>
+        <item>ObScrollview</item>
         <item>Cards</item>
         <item>Settings</item>
         <item>Style</item>

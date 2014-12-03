@@ -12,7 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.*;
 import android.widget.*;
 import com.material.R;
-import com.material.ui.fragment.ShadowsFragment;
+import com.material.ui.fragment.ObScrollviewFragment;
 
 /**
  * Created by mojingtian on 14/11/19.
@@ -104,7 +104,7 @@ public class MainActivity extends ActionBarActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         switch (position) {
             case 0:
-                fragment = new ShadowsFragment();
+                fragment = new ObScrollviewFragment();
                 fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
                 break;
             default:
