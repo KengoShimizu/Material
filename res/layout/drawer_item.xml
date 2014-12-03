@@ -5,7 +5,7 @@
                                              android:layout_height="@dimen/drawer_item_height"
                                              android:gravity="center_vertical"
                                              app:rippleOverlay="false"
-                                             app:rippleColor="@color/blue"
+                                             app:rippleColor="@color/primary"
                                              app:rippleAlpha="0.2"
                                              app:rippleHover="true"
                                              android:background="@drawable/selector_drawer"

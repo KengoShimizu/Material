@@ -2,8 +2,8 @@
 
     <style name="Theme.MyTheme" parent="Theme.AppCompat">
         <item name="windowActionBar">false</item>
-        <item name="colorPrimary">@color/blue</item>
-        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
         <item name="colorAccent">@color/white</item>
         <item name="android:textColorPrimary">@color/white</item>
     </style>
@@ -12,4 +12,5 @@
         <item name="android:background">@drawable/selector_drawer_icon</item>
 
     </style>
+
 </resources>
