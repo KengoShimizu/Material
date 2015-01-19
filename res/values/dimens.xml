@@ -16,12 +16,6 @@
     <dimen name="drawer_img_size">24dp</dimen>
     <dimen name="drawer_left_size">40dp</dimen>
 
-    <dimen name="margin_normal">16dp</dimen>
-    <dimen name="shadow_normal">8dp</dimen>
-
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-
     <dimen name="margin_standard">16dp</dimen>
     <dimen name="margin_short">8dp</dimen>
     <dimen name="margin_extra_short">4dp</dimen>
