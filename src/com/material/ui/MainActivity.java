@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.*;
 import android.widget.*;
 import com.material.R;
+import com.material.ui.fragment.EasingFragment;
 import com.material.ui.fragment.ObScrollviewFragment;
 
 /**
@@ -105,6 +106,10 @@ public class MainActivity extends ActionBarActivity {
         switch (position) {
             case 0:
                 fragment = new ObScrollviewFragment();
+                fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+                break;
+            case 1:
+                fragment = new EasingFragment();
                 fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
                 break;
             default:

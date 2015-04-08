@@ -3,7 +3,7 @@
 
     <string-array name="drawer_arrays">
         <item>ObScrollview</item>
-        <item>Cards</item>
+        <item>Easing</item>
         <item>Settings</item>
         <item>Style</item>
         <item>About Us</item>

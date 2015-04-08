@@ -39,7 +39,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:layout_marginRight="@dimen/margin_standard"
-                android:textColor="@color/black"
+                android:textColor="@drawable/selector_drawer_tv"
                 android:textSize="@dimen/text_small"/>
     </LinearLayout>
 </com.material.ui.widget.MaterialRippleLayout>
