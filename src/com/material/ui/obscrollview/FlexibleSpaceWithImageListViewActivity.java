@@ -70,6 +70,7 @@ public class FlexibleSpaceWithImageListViewActivity extends ActionBarActivity im
         if (!TOOLBAR_IS_STICKY) {
             mToolbar.setBackgroundColor(Color.TRANSPARENT);
         }
+
         mImageView = findViewById(R.id.image);
         mOverlayView = findViewById(R.id.overlay);
         ObservableListView listView = (ObservableListView) findViewById(R.id.list);

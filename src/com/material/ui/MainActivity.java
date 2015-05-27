@@ -9,11 +9,17 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.*;
 import android.widget.*;
 import com.material.R;
+import com.material.db.log.UserLog;
+import com.material.db.log.UserLogDao;
 import com.material.ui.fragment.EasingFragment;
 import com.material.ui.fragment.ObScrollviewFragment;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Created by mojingtian on 14/11/19.
@@ -81,6 +87,34 @@ public class MainActivity extends ActionBarActivity {
             selectItem(0);
         }
 
+        //test db
+        UserLogDao dao = new UserLogDao(this);
+//        for (int i = 0; i < 20; i++) {
+//            UserLog userLog = new UserLog();
+//            userLog.setUserId(String.valueOf(new Random().nextInt(1000)));
+//            userLog.setPackageName(getPackageName());
+//            try {
+//                userLog.setVersion(getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//            userLog.setAction("aaaaaa");
+//            userLog.setAmount("1000");
+//            try {
+//                dao.insertUserLog(userLog);
+//            } catch (Exception e) {
+//                Log.i("JT", e.getMessage());
+//                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+//            }
+//
+//        }
+
+        ArrayList<UserLog> userLogs = new ArrayList<UserLog>();
+        userLogs = dao.queryUserLogBySize(0,10);
+        for (int i = 0; i < userLogs.size(); i++){
+            Log.i("JT","userLogs("+i+")"+userLogs.get(i).toString());
+        }
+        Log.i("JT","userLogs size = "+dao.getUserLogCount());
     }
 
     private void setupView() {
