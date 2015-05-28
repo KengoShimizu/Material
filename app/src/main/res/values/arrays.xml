@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer_arrays">
+        <item>ObScrollview</item>
+        <item>Easing</item>
+        <item>Settings</item>
+        <item>Style</item>
+        <item>About Us</item>
+    </string-array>
+    
+    
+
+</resources>

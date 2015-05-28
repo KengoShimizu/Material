@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.material.ui.widget.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="@dimen/drawer_item_height"
+                                             android:gravity="center_vertical"
+                                             app:rippleOverlay="false"
+                                             app:rippleColor="@color/primary"
+                                             app:rippleAlpha="0.2"
+                                             app:rippleHover="true"
+                                             android:background="@drawable/selector_drawer"
+                                             android:orientation="horizontal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="@dimen/drawer_left_size"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_standard"
+                android:layout_marginLeft="@dimen/margin_standard"
+                android:gravity="center_vertical">
+
+
+            <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/drawer_img_size"
+                    android:layout_height="@dimen/drawer_img_size"
+                    android:contentDescription="@string/img"/>
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_standard"
+                android:textColor="@drawable/selector_drawer_tv"
+                android:textSize="@dimen/text_small"/>
+    </LinearLayout>
+</com.material.ui.widget.MaterialRippleLayout>
